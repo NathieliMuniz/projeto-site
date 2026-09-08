@@ -1,24 +1,194 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titulo do site</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Nathieli - website</title>
 </head>
+
 <body>
-    <main>
+    <div class="background-verde">
+        <!---header--->
         <header>
-            <h1>Cursos Grátis</h1>
+            <!---container--->
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href=index.html>NLstudio</a>
+                    </div>
+                    <ul class="ul">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">sobre</a></li>
+                        <li><a href="#">tipo de casa</a></li>
+                        <li><a href="#">contato</a></li>
+                        <li><a href="#"><button class="btn-gradiente">começar</button></a></li>
+                    </ul>
+                    <div class="menu-icon">
+                        <img src="img/menu.png" alt="icon do menu">
+                    </div>
+                </nav>
+            </div>
+            <!---fim do container--->
         </header>
-        <article>
-            <h2>Curso de HTML5 em CSS3</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolorum perferendis eveniet sit cum ex expedita, est amet, sint neque magni commodi iusto dolorem nobis hic possimus! Ab, fuga architecto.</p>
-        </article>
-        <article>
-            <h2>Curso de JavaScript</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia harum, enim minus debitis nesciunt deserunt dolores suscipit consequatur eum! Incidunt blanditiis, nulla fugiat consectetur provident voluptatum facilis. Vel, nemo nisi?</p>
-        </article>
-    </main>
+        <!---Fim do cabeçalho--->
+        <!---main--->
+        <main>
+            <!---container--->
+            <div class="container">
+                <!---main text--->
+                <div class="main-text">
+                    <h1>A Terra da felicidade</h1>
+                    <H2>Moderno & clássico</H2>
+                    <div>
+                        <button class="btn-gradiente">reservar agora</button>
+                        <img src="img/verificado.png" alt="verificado">
+                    </div>
+                </div>
+                <!---fim main text--->
+                <!---fim main img--->
+                <div class="main-img">
+                    <img src="img/img1.png" alt="três homens sorrindo">
+                </div>
+                <!---fim main img--->
+            </div>
+            <!---fim do container--->
+        </main>
+        <!---fim do main--->
+    </div>
+    <!-- fim backgroud verde-->
+    <!-- resultados -->
+    <section class="resultados">
+        <!-- container -->
+        <div class="container">
+            <!-- resultados-text -->
+            <div class="resultado-text">
+                Ajudando pessoas e grandes empresas com o foco no conforto
+            </div>
+            <!-- fim resultados-text -->
+            <!--  resultados-numeros -->
+            <div class="resultados-numeros">
+                <p>
+                    <span>+50 mil</span> <br>
+                    clientes
+                </p>
+                <p>
+                    <span>+20 mil</span> <br>
+                    funcionarios
+                </p>
+                <p>
+                    <span>+60 mil</span> <br>
+                    projetos
+                </p>
+            </div>
+            <!-- fim resultados-numero -->
+        </div>
+        <!-- fim container -->
+    </section>
+    <!-- fim resultados -->
+    <!--diferencias-->
+    <section class="diferencias ">
+        <div class="container">
+            <div class="card">
+              <img src="img/medal.png" alt="medalha">
+            <h3 class="titulo">Empresa Profissionalizante</h3>
+                 <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing. nam voluptate unde sed dignissimos dolorem
+                 molestiae
+                </p>
+            </div>
+        <div class="card">
+            <img src="img/24h.png" alt="24 horas">
+            <h3 class="titulo">Consultoria 24 horas</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing. nam voluptate unde sed dignissimos dolorem
+                molestiae
+            </p>
+        </div>
+        <div class="card">
+            <img src="img/caixa.png" alt="caixa">
+            <h3 class="titulo"> Servindo em varios paises </h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing. nam voluptate unde sed dignissimos dolorem
+                molestiae
+            </p>
+        </div>
+        </div>
+
+    </section>
+    <!-- fim diferencias-->
+     <!--section casa -->
+<section class="casa">
+    <div class="container">
+        <div class="casa-img">
+        <img src="img/casa.png" alt="Minha futura casa">
+        </div>
+        <div class="casa-text">
+           <h2> construção dee casas particulares</h2> 
+           <p>Chegou a hora de realizar o sonho da casa própria! Trabalhamos com imóveis cuidadosamente selecionados, pensados para oferecer conforto, segurança e qualidade de vida. Nossas casas contam com excelente localização, ambientes amplos e bem iluminados, além de acabamentos modernos que valorizam cada detalhe do imóvel.</p>
+           <img src="img/user-happy.png" alt="">
+           <p>
+            <b> +50 usuarios felizes </b>
+        </p>
+        </div>
+    </div>
+</section>
+     <!-- fim section casa -->
+      <!--  melhores lugares  -->
+<section class="melhores-lugares">
+    <div class="container">
+<p class="azul">Escolha o seu melhor</p>
+<h2>30 melhores lugares do mundo</h2>
+<div class="cards">
+     <!--  card item 1  -->
+    <div class="card-item">
+        <img src="img/casa1.png" alt="casa 1">
+       <p class="local-casa">Los Angeles,USA</p> 
+       <p class="nome-casa">beHome</p>
+       <p class="contato">55 51 98383-8230<br>agency@gmail.com</p>
+       <button>3 propriedades</button>
+    </div>
+    <!--fim card item 1-->
+    <!--card item 2-->
+     <div class="card-item">
+        <img src="img/casa2.png" alt="casa 2">
+       <p class="local casa">Los Angeles,USA</p> 
+       <p class="nome-casa">beHome</p>
+       <p class="contato">55 51 98383-8230<br>agency@gmail.com</p>
+       <button>3 propriedades</button>
+    </div>
+    <!--card item 3-->
+     <div class="card-item">
+        <img src="img/casa3.png" alt="casa 3">
+       <p class="local casa">Los Angeles,USA</p> 
+       <p class="nome-casa">beHome</p>
+       <p class="contato">55 51 98383-8230<br>agency@gmail.com</p>
+       <button>3 propriedades</button>
+    </div>
+    <!--fim card item 3-->
+</div>
+    </div>
+</section>
+<!-- fim section melhores lugares  -->
+
+ <!-- fim section newlwtter  -->
+ 
+ <section class="newletter">
+   <div class="container">
+    <div class="box-newlettwe">
+        <h2>subescreva-se na nossa newletter</h2>
+        <p>subescreva pra receber conteúdos, novidades e dicas importantes,</p>
+        <form >
+        <input type=" email" placeholder="Digite o seu email">
+        <button>Subecrever</button>
+       </form> 
+    </div>
+   </div> 
+ </section>
+ <!-- fim section newletter  -->
+ 
+    <script src="js/main.js"></script>
 </body>
+
 </html>
